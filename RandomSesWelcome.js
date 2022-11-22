@@ -26,4 +26,5 @@ client.on("guildMemberAdd", member => {
     `<#>`,
 ]; 
   const welcomechat = member.guild.channels.cache.find(y => y.id === `kanal ID`);
-  welcomechat.send(` `+ randomkanallar.random() +``)});
+welcomechat.send(` `+ randomkanallar.random() +``)}); //v12
+welcomechat.send({ content:` `+ randomkanallar.random() +``})}); //v13
